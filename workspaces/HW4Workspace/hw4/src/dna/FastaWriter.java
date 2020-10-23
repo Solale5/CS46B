@@ -1,0 +1,41 @@
+package dna;
+
+import java.io.*;
+
+
+
+/**
+ * 
+ * @author solomonalemu
+ * Writes a fasta record to a print writer.
+ */
+public class FastaWriter 
+{
+ 
+	private PrintWriter thePrintWriter;
+	
+	/**
+	 * 
+	 * @param p passes in a print writer to write to files 
+	 */
+	public FastaWriter(PrintWriter p) 
+	{
+		thePrintWriter = p;
+	}
+	
+	/**
+	 * 
+	 * @param rec takes a FastaRecord as a parameter and uses it to write to a file
+	 * @throws IOException is a checked exception
+	 */
+	public void writeRecord(FastaRecord rec) throws IOException
+	{
+		//println statements creat spaces
+		//thePrintWriter.println();
+		thePrintWriter.write(rec.getDefline());
+		thePrintWriter.println();
+		thePrintWriter.write(rec.getSequence());
+		thePrintWriter.println();
+		
+	}
+}

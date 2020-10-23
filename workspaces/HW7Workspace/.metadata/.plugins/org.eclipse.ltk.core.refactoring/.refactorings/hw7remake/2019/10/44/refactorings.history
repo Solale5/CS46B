@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;hw7remake&apos; to &apos;simpledoku_solution&apos;&#x0A;- Original project: &apos;hw7remake&apos;&#x0A;- Original element: &apos;hw7remake/src/hw7remake&apos;&#x0A;- Renamed element: &apos;hw7remake/src/simpledoku_solution&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;hw7remake&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;hw7remake" name="simpledoku_solution" qualified="false" references="true" stamp="1572497404837" textual="false" version="1.0"/>
+</session>
